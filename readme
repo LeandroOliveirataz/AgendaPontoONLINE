@@ -24,3 +24,15 @@ Instale as bibliotecas necessárias com o seguinte comando:
 
 ```bash
 pip install pyautogui pygetwindow requests schedule
+
+### Explicação:
+
+1. **Objetivo do Script**: A explicação básica sobre o que o script faz, incluindo a funcionalidade de registro de ponto e desligamento do computador.
+2. **Requisitos**: As bibliotecas necessárias para o funcionamento do script.
+3. **Instalação**: Como instalar as dependências.
+4. **Uso**: Explicação passo a passo de como o usuário deve interagir com o script.
+5. **Criando Executável**: Passos para criar um arquivo executável com `PyInstaller`.
+6. **Problemas Conhecidos**: Listagem de possíveis problemas que os usuários podem enfrentar.
+7. **Contribuições e Licença**: Informações sobre contribuições e licença do projeto.
+
+Este README oferece uma visão geral completa sobre o projeto e como usá-lo, facilitando para qualquer outro usuário ou desenvolvedor entender o que foi feito e como rodar o script.
