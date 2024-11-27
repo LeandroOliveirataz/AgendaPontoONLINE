@@ -1,0 +1,26 @@
+# Ponto Registrar SUAP
+
+Este projeto automatiza o registro de ponto no sistema SUAP, permitindo que o usuário agende a execução de uma tarefa que realiza o login, registro de frequência e, se desejado, desliga o computador após a execução.
+
+## Funcionalidades
+
+- **Agendamento do Registro de Ponto**: O usuário pode agendar a execução do registro de ponto para um horário específico.
+- **Verificação de Conexão com a Internet**: O script realiza a verificação contínua da conexão com a internet antes de iniciar a tarefa, tentando reconectar caso a conexão falhe.
+- **Execução Automática**: Ao chegar o horário agendado, o script abrirá o navegador Chrome, acessará o SUAP, realizará o login e registrará a frequência.
+- **Desligamento do Computador**: Após a execução, o computador pode ser desligado automaticamente, caso o usuário escolha essa opção.
+- **Registro de Logs**: Toda a execução do script é registrada em um arquivo de log, facilitando o acompanhamento das ações.
+
+## Requisitos
+
+- Python 3.x
+- Bibliotecas necessárias:
+  - `tkinter` (inclusa no Python)
+  - `pyautogui`
+  - `pygetwindow`
+  - `requests`
+  - `schedule`
+
+Instale as bibliotecas necessárias com o seguinte comando:
+
+```bash
+pip install pyautogui pygetwindow requests schedule
